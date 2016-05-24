@@ -178,7 +178,7 @@ class IuguPlan(object):
                 prices = self.prices
 
         if not value_cents:
-            if self.value_cents:
+            if self.value_cents >= 0:
                 value_cents = self.value_cents
             else:
                 raise errors.IuguPlansException(value="value_cents is required")
