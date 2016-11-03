@@ -171,11 +171,11 @@ invoice_existent.refund()
 ### Operations with Subscriptions ###
 Create a subscription
 ```
-from subscriptions import IuguSubscription
+from iugu.subscriptions import IuguSubscription
 client = IuguSubscription()
-# from plans import IuguPan
+# from iugu.plans import IuguPlan
 # plan_x = IuguPlan().create("Plano Collor", "plano_collor")
-# from customers import IuguCustomer
+# from iugu.customers import IuguCustomer
 # mario = IuguCustomer().create(email='supermario@gmail.com')
 # subscription = client.create(customer_id=mario.id,
 #                 plan_identifier=plan_x.identifier)
